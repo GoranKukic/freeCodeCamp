@@ -1,0 +1,18 @@
+function palindrome(str) {
+  //fisrt match only letters and numbers, then convert all letters to lowercase 
+  let toLowerCase = str.replace(/[^a-zA-Z0-9]+/sg, '').toLowerCase();
+
+  // secondly split string into array, reverse it, and join it into string again
+  let splitStr = toLowerCase.split("").reverse().join("");;
+
+  console.log(splitStr);
+
+  // check is there palindrome
+  if (toLowerCase === splitStr){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+console.log(palindrome("My age is 0, 0 si ega ym."));
