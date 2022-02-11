@@ -1,0 +1,9 @@
+const JSX = <div>
+  <h1>Complex JSX Element</h1>
+  <p>This nested elements in a div tag will return a single element.</p>
+  <ul>
+    <li>Paragraph One</li>
+    <li>Paragraph Two</li>
+    <li>Paragraph Three</li>
+  </ul>
+</div>
