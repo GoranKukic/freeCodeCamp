@@ -1,0 +1,7 @@
+function timesFive(param){
+  return param * 5;
+};
+
+const result = timesFive(10);
+
+console.log(result);
